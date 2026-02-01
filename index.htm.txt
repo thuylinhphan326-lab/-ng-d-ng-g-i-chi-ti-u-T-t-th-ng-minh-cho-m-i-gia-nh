@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kế Hoạch Chi Tiêu Tết Thông Minh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🧧 Ứng Dụng Kế Hoạch Chi Tiêu Tết</h1>
+        <p class="desc">Lập kế hoạch chi tiêu Tết thông minh – tiết kiệm – rõ ràng – đẹp mắt</p>
+    </header>
+
+    <section class="budget-input">
+        <label>Nhập số tiền bạn có:</label>
+        <input type="number" id="budget" placeholder="Ví dụ: 2000000">
+        <button onclick="generatePlan()">Tạo kế hoạch chi tiêu</button>
+    </section>
+
+    <h2>Kế hoạch chi tiết</h2>
+    <div id="planContainer" class="cards"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
